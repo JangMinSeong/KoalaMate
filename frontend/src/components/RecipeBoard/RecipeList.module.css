@@ -1,0 +1,26 @@
+.cardList {
+    max-width: 1200px;
+    margin: 20px auto; /* 상하 20px, 좌우는 auto */
+    padding: 0 20px; /* 좌우에 20px의 안쪽 여백을 추가 */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 30px; /* 카드 사이의 간격을 설정 */
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 600px) {
+    .cardList {
+        flex-direction: column;
+    }
+}
+
+
+.justifyStart {
+    justify-content: start !important;
+    margin: 20px 10px;
+}
+.justifyCenter {
+    justify-content: center;
+}

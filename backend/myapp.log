@@ -1,0 +1,564 @@
+2024-02-02T16:57:56.348+09:00  INFO 17256 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 17256 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T16:57:56.351+09:00  INFO 17256 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T16:57:56.398+09:00  INFO 17256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T16:57:56.399+09:00  INFO 17256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T16:57:57.275+09:00  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T16:57:57.354+09:00  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 14 JPA repository interfaces.
+2024-02-02T16:57:57.607+09:00  INFO 17256 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T16:57:57.607+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T16:57:57.608+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:57:57.608+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:57:57.609+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:57:57.609+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T16:57:57.609+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T16:57:57.610+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:57:57.610+09:00  INFO 17256 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:57:57.731+09:00  INFO 17256 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T16:57:57.739+09:00  INFO 17256 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T16:57:57.741+09:00  INFO 17256 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T16:57:57.903+09:00  INFO 17256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T16:57:57.912+09:00  INFO 17256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T16:57:57.913+09:00  INFO 17256 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T16:57:57.957+09:00  INFO 17256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T16:57:57.957+09:00  INFO 17256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2024-02-02T16:57:58.009+09:00  INFO 17256 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@6201c495 with name: jasyptEncryptorAES
+2024-02-02T16:57:58.114+09:00  INFO 17256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T16:57:58.174+09:00  INFO 17256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T16:57:58.200+09:00  INFO 17256 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T16:57:58.381+09:00  INFO 17256 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T16:57:58.402+09:00  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T16:57:58.542+09:00  INFO 17256 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@432dae07
+2024-02-02T16:57:58.543+09:00  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T16:57:59.502+09:00  INFO 17256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T16:58:00.167+09:00  INFO 17256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T16:58:00.504+09:00  INFO 17256 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T16:58:00.932+09:00  INFO 17256 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static org.springframework.messaging.simp.SimpMessagingTemplate com.ssafy.koala.controller.chat.WebChatController.messagingTemplate
+2024-02-02T16:58:01.031+09:00  INFO 17256 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2024-02-02T16:58:01.032+09:00  INFO 17256 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2024-02-02T16:58:01.184+09:00  INFO 17256 --- [nioEventLoopGroup-2-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2024-02-02T16:58:01.230+09:00  WARN 17256 --- [JsonRpcClient-hearbeatExec-e1-t0] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2024-02-02T16:58:01.237+09:00  INFO 17256 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Connecting native client
+2024-02-02T16:58:01.237+09:00  WARN 17256 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Error sending heartbeat to server. Exception: [KurentoClient]  Exception connecting to WebSocket server ws://127.0.0.1:8888/kurento
+2024-02-02T16:58:01.237+09:00  INFO 17256 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Creating new NioEventLoopGroup
+2024-02-02T16:58:01.238+09:00  WARN 17256 --- [JsonRpcClient-hearbeatExec-e1-t0] o.kurento.jsonrpc.client.JsonRpcClient   : [KurentoClient]  Stopping heartbeat and closing client: failure during heartbeat mechanism
+2024-02-02T16:58:01.260+09:00  INFO 17256 --- [nioEventLoopGroup-3-1] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Initiating new Netty channel. Will create new handler too!
+2024-02-02T16:58:01.261+09:00  WARN 17256 --- [restartedMain] o.k.j.c.JsonRpcClientNettyWebSocket      : [KurentoClient]  Trying to close a JsonRpcClientNettyWebSocket with channel == null
+2024-02-02T16:58:01.266+09:00  WARN 17256 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'voiceChatController' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\controller\voicechat\VoiceChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'voiceChatService' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\service\voicechat\VoiceChatService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'kurentoClient' defined in class path resource [com/ssafy/koala/config/KurentoConfig.class]: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception with message: Exception connecting to KMS
+2024-02-02T16:58:01.267+09:00  INFO 17256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T16:58:01.269+09:00  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T16:58:01.355+09:00  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T16:58:01.357+09:00  INFO 17256 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-02T16:58:01.367+09:00  INFO 17256 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-02T16:58:01.382+09:00 ERROR 17256 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'voiceChatController' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\controller\voicechat\VoiceChatController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'voiceChatService' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\service\voicechat\VoiceChatService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'kurentoClient' defined in class path resource [com/ssafy/koala/config/KurentoConfig.class]: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception with message: Exception connecting to KMS
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.3.jar:6.1.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.3.jar:6.1.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.2.jar:3.2.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.2.jar:3.2.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.2.jar:3.2.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.2.jar:3.2.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.2.jar:3.2.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.2.jar:3.2.2]
+	at com.ssafy.koala.BackendApplication.main(BackendApplication.java:15) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.2.jar:3.2.2]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'voiceChatService' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\service\voicechat\VoiceChatService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'kurentoClient' defined in class path resource [com/ssafy/koala/config/KurentoConfig.class]: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception with message: Exception connecting to KMS
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:907) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:785) ~[spring-beans-6.1.3.jar:6.1.3]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'kurentoClient' defined in class path resource [com/ssafy/koala/config/KurentoConfig.class]: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception with message: Exception connecting to KMS
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:907) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:785) ~[spring-beans-6.1.3.jar:6.1.3]
+	... 38 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.kurento.client.KurentoClient]: Factory method 'kurentoClient' threw exception with message: Exception connecting to KMS
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.3.jar:6.1.3]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:647) ~[spring-beans-6.1.3.jar:6.1.3]
+	... 52 common frames omitted
+Caused by: org.kurento.commons.exception.KurentoException: Exception connecting to KMS
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:259) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:129) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:116) ~[kurento-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.create(KurentoClient.java:111) ~[kurento-client-6.16.0.jar:6.16.0]
+	at com.ssafy.koala.config.KurentoConfig.kurentoClient(KurentoConfig.java:12) ~[main/:na]
+	at com.ssafy.koala.config.KurentoConfig$$SpringCGLIB$$0.CGLIB$kurentoClient$0(<generated>) ~[main/:na]
+	at com.ssafy.koala.config.KurentoConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.3.jar:6.1.3]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-6.1.3.jar:6.1.3]
+	at com.ssafy.koala.config.KurentoConfig$$SpringCGLIB$$0.kurentoClient(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.3.jar:6.1.3]
+	... 53 common frames omitted
+Caused by: org.kurento.jsonrpc.JsonRpcException: [KurentoClient]  Exception connecting to WebSocket server ws://127.0.0.1:8888/kurento
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.internalConnectIfNecessary(AbstractJsonRpcClientWebSocket.java:735) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connectIfNecessary(AbstractJsonRpcClientWebSocket.java:847) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.jsonrpc.client.AbstractJsonRpcClientWebSocket.connect(AbstractJsonRpcClientWebSocket.java:678) ~[kurento-jsonrpc-client-6.16.0.jar:6.16.0]
+	at org.kurento.client.KurentoClient.<init>(KurentoClient.java:251) ~[kurento-client-6.16.0.jar:6.16.0]
+	... 67 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8888
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:335) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.105.Final.jar:4.1.105.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.105.Final.jar:4.1.105.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-02-02T16:58:44.125+09:00  INFO 16892 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 16892 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T16:58:44.128+09:00  INFO 16892 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T16:58:44.175+09:00  INFO 16892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T16:58:44.176+09:00  INFO 16892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T16:58:45.076+09:00  INFO 16892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T16:58:45.151+09:00  INFO 16892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 14 JPA repository interfaces.
+2024-02-02T16:58:45.383+09:00  INFO 16892 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T16:58:45.384+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T16:58:45.385+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:58:45.385+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:58:45.385+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:58:45.385+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T16:58:45.386+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T16:58:45.386+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:58:45.386+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:58:45.499+09:00  INFO 16892 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T16:58:45.507+09:00  INFO 16892 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T16:58:45.509+09:00  INFO 16892 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T16:58:45.664+09:00  INFO 16892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T16:58:45.674+09:00  INFO 16892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T16:58:45.675+09:00  INFO 16892 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T16:58:45.735+09:00  INFO 16892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T16:58:45.735+09:00  INFO 16892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2024-02-02T16:58:45.802+09:00  INFO 16892 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@5b219ff2 with name: jasyptEncryptorAES
+2024-02-02T16:58:45.922+09:00  INFO 16892 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T16:58:45.976+09:00  INFO 16892 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T16:58:46.002+09:00  INFO 16892 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T16:58:46.196+09:00  INFO 16892 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T16:58:46.219+09:00  INFO 16892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T16:58:46.381+09:00  INFO 16892 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@9b8154
+2024-02-02T16:58:46.382+09:00  INFO 16892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T16:58:47.367+09:00  INFO 16892 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T16:58:48.116+09:00  INFO 16892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T16:58:48.447+09:00  INFO 16892 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T16:58:48.859+09:00  INFO 16892 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static org.springframework.messaging.simp.SimpMessagingTemplate com.ssafy.koala.controller.chat.WebChatController.messagingTemplate
+2024-02-02T16:58:49.021+09:00  WARN 16892 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T16:58:49.241+09:00  INFO 16892 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24b48cc8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a6cbcfc, org.springframework.security.web.context.SecurityContextHolderFilter@f9a6200, org.springframework.security.web.header.HeaderWriterFilter@6e0826d1, org.springframework.web.filter.CorsFilter@61e9fbcf, org.springframework.security.web.authentication.logout.LogoutFilter@c40f74c, com.ssafy.koala.config.jwt.JwtAuthFilter@500c8ea5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11a2ac00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@277b8c2b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50de9aa0, org.springframework.security.web.access.ExceptionTranslationFilter@10558dd9, org.springframework.security.web.access.intercept.AuthorizationFilter@43ab06b8]
+2024-02-02T16:58:49.496+09:00  INFO 16892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-02T16:58:49.534+09:00  INFO 16892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path ''
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' refreshed
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source devtools refreshed
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:58:49.535+09:00  INFO 16892 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-02-02T16:58:49.536+09:00  INFO 16892 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-02-02T16:58:49.536+09:00  INFO 16892 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12508574]]
+2024-02-02T16:58:49.536+09:00  INFO 16892 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-02-02T16:58:49.544+09:00  INFO 16892 --- [restartedMain] com.ssafy.koala.BackendApplication       : Started BackendApplication in 5.779 seconds (process running for 6.606)
+2024-02-02T16:58:52.728+09:00  INFO 16892 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2024-02-02T16:58:52.729+09:00  INFO 16892 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@12508574]]
+2024-02-02T16:58:52.729+09:00  INFO 16892 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2024-02-02T16:58:52.745+09:00  INFO 16892 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T16:58:52.748+09:00  INFO 16892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T16:58:52.825+09:00  INFO 16892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T16:59:04.178+09:00  INFO 5116 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 5116 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T16:59:04.180+09:00  INFO 5116 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T16:59:04.218+09:00  INFO 5116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T16:59:04.218+09:00  INFO 5116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T16:59:05.021+09:00  INFO 5116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T16:59:05.095+09:00  INFO 5116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 14 JPA repository interfaces.
+2024-02-02T16:59:05.335+09:00  INFO 5116 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T16:59:05.336+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T16:59:05.337+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:59:05.337+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:59:05.338+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:59:05.338+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T16:59:05.338+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T16:59:05.338+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:59:05.338+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T16:59:05.445+09:00  INFO 5116 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T16:59:05.453+09:00  INFO 5116 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T16:59:05.454+09:00  INFO 5116 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T16:59:05.612+09:00  INFO 5116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T16:59:05.622+09:00  INFO 5116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T16:59:05.622+09:00  INFO 5116 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T16:59:05.672+09:00  INFO 5116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T16:59:05.672+09:00  INFO 5116 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2024-02-02T16:59:05.724+09:00  INFO 5116 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@4e77e420 with name: jasyptEncryptorAES
+2024-02-02T16:59:05.833+09:00  INFO 5116 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T16:59:05.894+09:00  INFO 5116 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T16:59:05.920+09:00  INFO 5116 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T16:59:06.109+09:00  INFO 5116 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T16:59:06.130+09:00  INFO 5116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T16:59:06.277+09:00  INFO 5116 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54cba79d
+2024-02-02T16:59:06.279+09:00  INFO 5116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T16:59:07.229+09:00  INFO 5116 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T16:59:07.968+09:00  INFO 5116 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T16:59:08.301+09:00  INFO 5116 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T16:59:08.728+09:00  INFO 5116 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static org.springframework.messaging.simp.SimpMessagingTemplate com.ssafy.koala.controller.chat.WebChatController.messagingTemplate
+2024-02-02T16:59:08.893+09:00  WARN 5116 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T16:59:09.127+09:00  INFO 5116 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b89e115, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76c8e2f0, org.springframework.security.web.context.SecurityContextHolderFilter@2d194a2d, org.springframework.security.web.header.HeaderWriterFilter@51c09d84, org.springframework.web.filter.CorsFilter@5d53ec40, org.springframework.security.web.authentication.logout.LogoutFilter@77727fc, com.ssafy.koala.config.jwt.JwtAuthFilter@53707ddb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a8e0911, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a430952, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7755afe9, org.springframework.security.web.access.ExceptionTranslationFilter@19560304, org.springframework.security.web.access.intercept.AuthorizationFilter@187678d9]
+2024-02-02T16:59:09.375+09:00  INFO 5116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-02T16:59:09.414+09:00  INFO 5116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path ''
+2024-02-02T16:59:09.415+09:00  INFO 5116 --- [restartedMain] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-02-02T16:59:09.415+09:00  INFO 5116 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2024-02-02T16:59:09.415+09:00  INFO 5116 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2024-02-02T16:59:09.415+09:00  INFO 5116 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2024-02-02T16:59:09.415+09:00  INFO 5116 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' refreshed
+2024-02-02T16:59:09.416+09:00  INFO 5116 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source devtools refreshed
+2024-02-02T16:59:09.416+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T16:59:09.416+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T16:59:09.416+09:00  INFO 5116 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-02-02T16:59:09.416+09:00  INFO 5116 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-02-02T16:59:09.417+09:00  INFO 5116 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@736f2ffb]]
+2024-02-02T16:59:09.417+09:00  INFO 5116 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-02-02T16:59:09.424+09:00  INFO 5116 --- [restartedMain] com.ssafy.koala.BackendApplication       : Started BackendApplication in 5.624 seconds (process running for 6.399)
+2024-02-02T17:00:09.399+09:00  INFO 5116 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-02T17:00:16.421+09:00  INFO 5116 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2024-02-02T17:00:16.421+09:00  INFO 5116 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@736f2ffb]]
+2024-02-02T17:00:16.421+09:00  INFO 5116 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2024-02-02T17:00:16.439+09:00  INFO 5116 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:00:16.441+09:00  INFO 5116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T17:00:16.533+09:00  INFO 5116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T17:00:21.954+09:00  INFO 13608 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 13608 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T17:00:21.955+09:00  INFO 13608 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T17:00:21.995+09:00  INFO 13608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T17:00:21.995+09:00  INFO 13608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T17:00:22.796+09:00  INFO 13608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T17:00:22.870+09:00  INFO 13608 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 14 JPA repository interfaces.
+2024-02-02T17:00:23.108+09:00  INFO 13608 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T17:00:23.109+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:00:23.110+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:00:23.110+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:00:23.111+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:00:23.111+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T17:00:23.111+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T17:00:23.111+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:00:23.111+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:00:23.229+09:00  INFO 13608 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T17:00:23.236+09:00  INFO 13608 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T17:00:23.237+09:00  INFO 13608 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T17:00:23.397+09:00  INFO 13608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T17:00:23.407+09:00  INFO 13608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T17:00:23.408+09:00  INFO 13608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T17:00:23.453+09:00  INFO 13608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T17:00:23.454+09:00  INFO 13608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1459 ms
+2024-02-02T17:00:23.510+09:00  INFO 13608 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@37599c72 with name: jasyptEncryptorAES
+2024-02-02T17:00:23.615+09:00  INFO 13608 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T17:00:23.676+09:00  INFO 13608 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T17:00:23.701+09:00  INFO 13608 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T17:00:23.885+09:00  INFO 13608 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T17:00:23.906+09:00  INFO 13608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T17:00:24.078+09:00  INFO 13608 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@ed5118e
+2024-02-02T17:00:24.079+09:00  INFO 13608 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T17:00:25.038+09:00  INFO 13608 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T17:00:25.707+09:00  INFO 13608 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:00:26.039+09:00  INFO 13608 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T17:00:26.492+09:00  INFO 13608 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static org.springframework.messaging.simp.SimpMessagingTemplate com.ssafy.koala.controller.chat.WebChatController.messagingTemplate
+2024-02-02T17:00:26.655+09:00  WARN 13608 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T17:00:26.901+09:00  INFO 13608 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47ec3037, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ae231b2, org.springframework.security.web.context.SecurityContextHolderFilter@193ede6a, org.springframework.security.web.header.HeaderWriterFilter@22d122dd, org.springframework.web.filter.CorsFilter@4f48c5d0, org.springframework.security.web.authentication.logout.LogoutFilter@488d16fc, com.ssafy.koala.config.jwt.JwtAuthFilter@689d8cde, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d03e8c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@433f9aa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ed67472, org.springframework.security.web.access.ExceptionTranslationFilter@1a8bcf32, org.springframework.security.web.access.intercept.AuthorizationFilter@40b8b2ec]
+2024-02-02T17:00:27.157+09:00  INFO 13608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-02T17:00:27.197+09:00  INFO 13608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path ''
+2024-02-02T17:00:27.198+09:00  INFO 13608 --- [restartedMain] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-02-02T17:00:27.198+09:00  INFO 13608 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2024-02-02T17:00:27.198+09:00  INFO 13608 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2024-02-02T17:00:27.198+09:00  INFO 13608 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2024-02-02T17:00:27.198+09:00  INFO 13608 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' refreshed
+2024-02-02T17:00:27.199+09:00  INFO 13608 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source devtools refreshed
+2024-02-02T17:00:27.199+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:00:27.199+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:00:27.199+09:00  INFO 13608 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-02-02T17:00:27.199+09:00  INFO 13608 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-02-02T17:00:27.200+09:00  INFO 13608 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2bf96512]]
+2024-02-02T17:00:27.200+09:00  INFO 13608 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-02-02T17:00:27.208+09:00  INFO 13608 --- [restartedMain] com.ssafy.koala.BackendApplication       : Started BackendApplication in 5.578 seconds (process running for 6.189)
+2024-02-02T17:01:27.188+09:00  INFO 13608 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-02T17:01:34.321+09:00  INFO 13608 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2024-02-02T17:01:34.321+09:00  INFO 13608 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2bf96512]]
+2024-02-02T17:01:34.321+09:00  INFO 13608 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2024-02-02T17:01:34.338+09:00  INFO 13608 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:01:34.340+09:00  INFO 13608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T17:01:34.419+09:00  INFO 13608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T17:02:06.586+09:00  INFO 2368 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 2368 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T17:02:06.588+09:00  INFO 2368 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T17:02:06.629+09:00  INFO 2368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T17:02:06.629+09:00  INFO 2368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T17:02:07.463+09:00  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T17:02:07.539+09:00  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 14 JPA repository interfaces.
+2024-02-02T17:02:07.779+09:00  INFO 2368 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T17:02:07.779+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:02:07.780+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:02:07.780+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:02:07.781+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:02:07.781+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T17:02:07.781+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T17:02:07.782+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:02:07.782+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:02:07.893+09:00  INFO 2368 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T17:02:07.900+09:00  INFO 2368 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T17:02:07.901+09:00  INFO 2368 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T17:02:08.061+09:00  INFO 2368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T17:02:08.071+09:00  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T17:02:08.072+09:00  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T17:02:08.121+09:00  INFO 2368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T17:02:08.122+09:00  INFO 2368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
+2024-02-02T17:02:08.182+09:00  INFO 2368 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@6a64f7d4 with name: jasyptEncryptorAES
+2024-02-02T17:02:08.300+09:00  INFO 2368 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T17:02:08.366+09:00  INFO 2368 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T17:02:08.399+09:00  INFO 2368 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T17:02:08.690+09:00  INFO 2368 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T17:02:08.727+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T17:02:08.901+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1d5adb4
+2024-02-02T17:02:08.904+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T17:02:10.148+09:00  INFO 2368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T17:02:10.924+09:00  INFO 2368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:02:11.628+09:00  INFO 2368 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T17:02:12.190+09:00  INFO 2368 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static org.springframework.messaging.simp.SimpMessagingTemplate com.ssafy.koala.controller.chat.WebChatController.messagingTemplate
+2024-02-02T17:02:12.407+09:00  WARN 2368 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-02T17:02:12.690+09:00  INFO 2368 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@738330bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a382310, org.springframework.security.web.context.SecurityContextHolderFilter@76e45092, org.springframework.security.web.header.HeaderWriterFilter@6d9494b1, org.springframework.web.filter.CorsFilter@7d1f9451, org.springframework.security.web.authentication.logout.LogoutFilter@c0a6db7, com.ssafy.koala.config.jwt.JwtAuthFilter@53dbf839, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e8855d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7980e0d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39b7242e, org.springframework.security.web.access.ExceptionTranslationFilter@4e91cc3f, org.springframework.security.web.access.intercept.AuthorizationFilter@64e672d4]
+2024-02-02T17:02:13.012+09:00  INFO 2368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-02T17:02:13.054+09:00  INFO 2368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path ''
+2024-02-02T17:02:13.055+09:00  INFO 2368 --- [restartedMain] u.j.c.RefreshScopeRefreshedEventListener : Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2024-02-02T17:02:13.055+09:00  INFO 2368 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemProperties refreshed
+2024-02-02T17:02:13.055+09:00  INFO 2368 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source systemEnvironment refreshed
+2024-02-02T17:02:13.055+09:00  INFO 2368 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source random refreshed
+2024-02-02T17:02:13.056+09:00  INFO 2368 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' refreshed
+2024-02-02T17:02:13.056+09:00  INFO 2368 --- [restartedMain] CachingDelegateEncryptablePropertySource : Property Source devtools refreshed
+2024-02-02T17:02:13.056+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:02:13.056+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:02:13.056+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-02-02T17:02:13.057+09:00  INFO 2368 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-02-02T17:02:13.057+09:00  INFO 2368 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@54a7ec5f]]
+2024-02-02T17:02:13.057+09:00  INFO 2368 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-02-02T17:02:13.067+09:00  INFO 2368 --- [restartedMain] com.ssafy.koala.BackendApplication       : Started BackendApplication in 6.808 seconds (process running for 7.456)
+2024-02-02T17:03:13.030+09:00  INFO 2368 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-02T17:07:49.258+09:00  INFO 2368 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02T17:07:49.258+09:00  INFO 2368 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-02T17:07:49.260+09:00  INFO 2368 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-02T17:18:42.793+09:00  INFO 2368 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-02-02T17:18:42.797+09:00  INFO 2368 --- [Thread-5] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2024-02-02T17:18:42.797+09:00  INFO 2368 --- [Thread-5] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@54a7ec5f]]
+2024-02-02T17:18:42.797+09:00  INFO 2368 --- [Thread-5] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2024-02-02T17:18:42.818+09:00  INFO 2368 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:18:42.822+09:00  INFO 2368 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T17:18:42.918+09:00  INFO 2368 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T17:18:43.028+09:00  INFO 2368 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 2368 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T17:18:43.028+09:00  INFO 2368 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T17:18:43.589+09:00  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T17:18:43.649+09:00  INFO 2368 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 14 JPA repository interfaces.
+2024-02-02T17:18:43.738+09:00  INFO 2368 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T17:18:43.738+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:18:43.738+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:18:43.738+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:18:43.739+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:18:43.739+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T17:18:43.739+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T17:18:43.739+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:18:43.739+09:00  INFO 2368 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:18:43.756+09:00  INFO 2368 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T17:18:43.759+09:00  INFO 2368 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T17:18:43.759+09:00  INFO 2368 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T17:18:43.809+09:00  INFO 2368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T17:18:43.811+09:00  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T17:18:43.811+09:00  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T17:18:43.844+09:00  INFO 2368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T17:18:43.844+09:00  INFO 2368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
+2024-02-02T17:18:43.870+09:00  INFO 2368 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@34a992bf with name: jasyptEncryptorAES
+2024-02-02T17:18:43.941+09:00  INFO 2368 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T17:18:43.948+09:00  INFO 2368 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T17:18:43.957+09:00  INFO 2368 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T17:18:43.959+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-02-02T17:18:44.080+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.mariadb.jdbc.Connection@31f7d941
+2024-02-02T17:18:44.080+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-02-02T17:18:44.336+09:00  INFO 2368 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T17:18:44.981+09:00  INFO 2368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:18:45.217+09:00  WARN 2368 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webChatController' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\controller\chat\WebChatController.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-02-02T17:18:45.217+09:00  INFO 2368 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:18:45.217+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-02-02T17:18:45.306+09:00  INFO 2368 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-02-02T17:18:45.307+09:00  INFO 2368 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-02T17:18:45.312+09:00  INFO 2368 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-02T17:18:45.334+09:00 ERROR 2368 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.ssafy.koala.controller.chat.WebChatController required a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' in your configuration.
+
+2024-02-02T17:55:28.523+09:00  INFO 2504 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 2504 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T17:55:28.525+09:00  INFO 2504 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T17:55:28.563+09:00  INFO 2504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T17:55:28.563+09:00  INFO 2504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T17:55:29.361+09:00  INFO 2504 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T17:55:29.443+09:00  INFO 2504 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 14 JPA repository interfaces.
+2024-02-02T17:55:29.693+09:00  INFO 2504 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T17:55:29.693+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:55:29.695+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:55:29.695+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:55:29.696+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:29.696+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T17:55:29.696+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T17:55:29.696+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:29.696+09:00  INFO 2504 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:29.834+09:00  INFO 2504 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T17:55:29.843+09:00  INFO 2504 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T17:55:29.844+09:00  INFO 2504 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T17:55:30.062+09:00  INFO 2504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T17:55:30.073+09:00  INFO 2504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T17:55:30.074+09:00  INFO 2504 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T17:55:30.134+09:00  INFO 2504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T17:55:30.134+09:00  INFO 2504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
+2024-02-02T17:55:30.205+09:00  INFO 2504 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@217bb2f6 with name: jasyptEncryptorAES
+2024-02-02T17:55:30.366+09:00  INFO 2504 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T17:55:30.435+09:00  INFO 2504 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T17:55:30.473+09:00  INFO 2504 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T17:55:30.714+09:00  INFO 2504 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T17:55:30.739+09:00  INFO 2504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T17:55:30.928+09:00  INFO 2504 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@74ac20f7
+2024-02-02T17:55:30.931+09:00  INFO 2504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T17:55:32.208+09:00  INFO 2504 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T17:55:32.954+09:00  INFO 2504 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:55:33.640+09:00  INFO 2504 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T17:55:34.064+09:00  WARN 2504 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webChatController' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\controller\chat\WebChatController.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-02-02T17:55:34.065+09:00  INFO 2504 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:55:34.067+09:00  INFO 2504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T17:55:34.166+09:00  INFO 2504 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T17:55:34.169+09:00  INFO 2504 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-02T17:55:34.184+09:00  INFO 2504 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-02T17:55:34.219+09:00 ERROR 2504 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.ssafy.koala.controller.chat.WebChatController required a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' in your configuration.
+
+2024-02-02T17:55:44.909+09:00  INFO 16552 --- [restartedMain] com.ssafy.koala.BackendApplication       : Starting BackendApplication using Java 17.0.10 with PID 16552 (C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main started by SSAFY in C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend)
+2024-02-02T17:55:44.911+09:00  INFO 16552 --- [restartedMain] com.ssafy.koala.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-02-02T17:55:44.953+09:00  INFO 16552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02T17:55:44.953+09:00  INFO 16552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02T17:55:45.764+09:00  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02T17:55:45.847+09:00  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 14 JPA repository interfaces.
+2024-02-02T17:55:46.082+09:00  INFO 16552 --- [restartedMain] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2024-02-02T17:55:46.082+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-02-02T17:55:46.083+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:55:46.083+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2024-02-02T17:55:46.084+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:46.084+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-02-02T17:55:46.084+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-02-02T17:55:46.084+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:46.084+09:00  INFO 16552 --- [restartedMain] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-02-02T17:55:46.195+09:00  INFO 16552 --- [restartedMain] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-02-02T17:55:46.203+09:00  INFO 16552 --- [restartedMain] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-02-02T17:55:46.204+09:00  INFO 16552 --- [restartedMain] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-02-02T17:55:46.365+09:00  INFO 16552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-02-02T17:55:46.376+09:00  INFO 16552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-02T17:55:46.376+09:00  INFO 16552 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-02T17:55:46.429+09:00  INFO 16552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-02T17:55:46.430+09:00  INFO 16552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1475 ms
+2024-02-02T17:55:46.482+09:00  INFO 16552 --- [restartedMain] c.u.j.encryptor.DefaultLazyEncryptor     : Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@7eccd889 with name: jasyptEncryptorAES
+2024-02-02T17:55:46.593+09:00  INFO 16552 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02T17:55:46.651+09:00  INFO 16552 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-02T17:55:46.678+09:00  INFO 16552 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-02T17:55:46.876+09:00  INFO 16552 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02T17:55:46.899+09:00  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-02T17:55:47.044+09:00  INFO 16552 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@494749ab
+2024-02-02T17:55:47.046+09:00  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-02T17:55:48.029+09:00  INFO 16552 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02T17:55:48.783+09:00  INFO 16552 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:55:49.242+09:00  INFO 16552 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02T17:55:49.527+09:00  WARN 16552 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webChatController' defined in file [C:\Users\SSAFY\Desktop\Jang\공통프로젝트\SubPJT2\S10P12D212\backend\build\classes\java\main\com\ssafy\koala\controller\chat\WebChatController.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-02-02T17:55:49.528+09:00  INFO 16552 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02T17:55:49.530+09:00  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-02T17:55:49.618+09:00  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-02T17:55:49.620+09:00  INFO 16552 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-02T17:55:49.630+09:00  INFO 16552 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-02T17:55:49.651+09:00 ERROR 16552 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.ssafy.koala.controller.chat.WebChatController required a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.messaging.simp.SimpMessagingTemplate' in your configuration.
+

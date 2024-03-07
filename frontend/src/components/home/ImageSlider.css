@@ -1,0 +1,21 @@
+.slick-dots {
+    bottom: 25px; /* 이미지 하단으로부터의 거리 조정 */
+    width: 100%;
+    left: 0;
+}
+
+.slick-dots li button:before {
+    color: lightgray; /* 점의 색상 조정, 이미지에 따라 변경 가능 */
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75; /* 활성화된 점의 색상 조정, 이미지에 따라 변경 가능 */
+}
+
+.sliderStyle {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5px;
+    overflow-x: hidden;
+}

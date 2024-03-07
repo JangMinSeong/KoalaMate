@@ -1,0 +1,7 @@
+/* Map.module.css */
+.mapContainer {
+    width: 60%; /* 또는 원하는 너비 */
+    height: 600px; /* 또는 원하는 높이 */
+    margin: 0 auto; /* 중앙 정렬 */
+    border-radius: 20px;
+}
